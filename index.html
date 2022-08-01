@@ -1,0 +1,68 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+      body {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+      }
+    </style>
+    <title>Shop Intelligence Systems GEO</title>
+  </head>
+  <body style="margin-top: 2em">
+    <div style="position: relative">
+      <h1 style="text-align: center; color: #28469f">
+        Shop. Intelligence Systems GEO / Магазин. Інтелектуальні системи ГЕО
+      </h1>
+      <div class="alive" style="display: none">
+        <h2 style="text-align: center; color: #18ae03">
+          We are alive... / Ми живі...
+        </h2>
+        <h2 style="text-align: center; color: #18ae03">
+          We are working... / Ми працюємо...
+        </h2>
+      </div>
+      <p
+        style="text-align: center; color: #8c7d00"
+        ondblclick="alive(document.querySelector('.alive'))"
+      >
+        The site is under construction / Cайт знаходиться на технічному
+        обслуговуванні
+      </p>
+      <table style="margin-top: 3em; text-align: center; width: 100%">
+        <tbody>
+          <tr>
+            <td>
+              <div style="text-align: center">
+                <p>
+                  <b>Our address</b><br />
+                  <a target="_blank" href="https://www.openstreetmap.org/?mlat=50.45395&amp;mlon=30.58948#map=19/50.45395/30.58948">20002, Kyiv, Mykilsko-Slobidska Street, 6</a><br />
+                  <a href="mainto:isgeo@ukr.net">isgeo@ukr.net</a><br />
+                </p>
+              </div>
+            </td>
+            <td>
+              <div style="text-align: center">
+                <p>
+                  <b>Наша адреса</b><br />
+                  <a target="_blank" href="https://www.openstreetmap.org/?mlat=50.45395&amp;mlon=30.58948#map=19/50.45395/30.58948">20002, Київ, Микільсько-Слобідська вулиця, 6</a><br />
+                  <a href="mainto:isgeo@ukr.net">isgeo@ukr.net</a><br />
+                </p>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <script>
+        function alive(sel) {
+          if (sel) {
+            sel.style.display =
+              sel.style.display === "block" ? "none" : "block";
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>
